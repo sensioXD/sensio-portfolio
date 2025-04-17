@@ -80,26 +80,6 @@
 <section id="big-heart-section" class="heart-showcase">
   <div id="bigHeart">❤️</div>
 </section>
-  <script src="script.js"></script>
-<audio id="bg-music" src="assets/audio/baghdad.mp3" type="audio/mpeg"></audio>
-
-<audio id="bg-music" autoplay loop>
-  <source src="https://res.cloudinary.com/dgxg4prgf/video/upload/v1744911084/D-azy_-_BAGHDAD_Official_Music_Video_ha6xat.mp3" type="audio/mpeg">
-  Tarayıcınız ses etiketini desteklemiyor.
-</audio>
-
-<script>
-  // Otomatik çalma engellenirse, tıklamayla başlat
-  document.addEventListener('click', function () {
-    const audio = document.getElementById('bg-music');
-    if (audio.paused) {
-      audio.play().catch((e) => {
-        console.log("Müzik çalma hatası:", e);
-      });
-    }
-  }, { once: true });
-</script>
-
 </body>
 </html>
 
